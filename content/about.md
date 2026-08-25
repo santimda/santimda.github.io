@@ -16,5 +16,9 @@ I have taught Calculus, Algebra, and Astrophysics at undergraduate and graduate 
 
 I regularly communicate astronomy and astrophysics to broader audiences through public talks, observatory visits, school activities, interviews, and university press communications. Recent topics include neutron stars and pulsars and the evolution of massive stars.
 
+## Hobbies
+
+Outside work, I enjoy running and playing chess. I am also learning languages, currently Swedish.
+
 - [Academic CV](/cv/CV___SdP.pdf)
 - [Industry CV](/cv/Santi_dP_CV_industry.pdf)
