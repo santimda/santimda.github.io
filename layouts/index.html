@@ -1,0 +1,56 @@
+{{ define "title" }}{{ .Site.Title }}{{ end }}
+{{ define "body_classes" }}page-home{{ end }}
+
+{{ define "meta_tags" }}
+<meta name="description" content="{{ .Site.Params.homepage_meta_tags.meta_description }}" />
+<meta property="og:title" content="{{ .Site.Params.homepage_meta_tags.meta_og_title }}" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{{ .Site.Params.homepage_meta_tags.meta_og_url }}" />
+<meta property="og:description" content="{{ .Site.Params.homepage_meta_tags.meta_og_description }}" />
+<meta name="twitter:card" content="summary" />
+{{ end }}
+
+{{ define "main" }}
+{{ $portrait := resources.Get "images/Santiago-Del-Palacio-original.jpg" }}
+{{ $portrait = $portrait.Resize "400x webp q72" }}
+<main class="profile-home">
+  <section class="profile-intro container">
+    <div class="profile-photo-wrap">
+      <img class="profile-photo" src="{{ $portrait.RelPermalink }}" alt="Santiago del Palacio" width="400" height="533">
+    </div>
+    <div class="profile-copy">
+      <p class="profile-kicker">Scientist · Data Science · Machine Learning</p>
+      <h1>Santiago del Palacio</h1>
+      <p class="profile-role">Data Scientist &amp; Astronomer</p>
+      <p class="profile-summary">Astrophysicist and data scientist with more than ten years of experience using statistical and physical modelling to extract reliable conclusions from noisy and heterogeneous datasets.</p>
+      <p class="profile-summary">After a research career in radio and high-energy astrophysics, I am applying this analytical and computational background to data science and machine learning.</p>
+      <div class="profile-links">
+        <a class="button button-primary" href="{{ "/data-science/" | relURL }}">Data Science</a>
+        <a class="button" href="{{ "/astronomy/" | relURL }}">Astronomy</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="profile-sections container">
+    <article class="profile-card">
+      <p class="profile-label">Data Science</p>
+      <h2>From complex data to useful conclusions.</h2>
+      <p>Portfolio work in Python, SQL, statistics, data analysis, visualisation, and machine learning, with an emphasis on sound reasoning and interpretable results.</p>
+      <a href="{{ "/data-science/" | relURL }}">Explore data science work →</a>
+    </article>
+    <article class="profile-card">
+      <p class="profile-label">Astronomy</p>
+      <h2>Modelling and observing energetic cosmic systems.</h2>
+      <p>Research on non-thermal emission, particle acceleration, radio and X-ray observations, and the physical environments of stars, galaxies, and compact objects.</p>
+      <a href="{{ "/astronomy/" | relURL }}">Explore astronomy research →</a>
+    </article>
+  </section>
+
+  <section class="profile-facts container">
+    <div><strong>PhD</strong><span>Astronomy, 2018</span></div>
+    <div><strong>60+</strong><span>Peer-reviewed papers</span></div>
+    <div><strong>Python · SQL</strong><span>Data and scientific programming</span></div>
+    <div><strong>Gothenburg</strong><span>Sweden</span></div>
+  </section>
+</main>
+{{ end }}

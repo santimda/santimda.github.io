@@ -1,0 +1,59 @@
+baseURL = 'https://santimda.github.io/'
+languageCode = 'en-us'
+title = 'Santiago del Palacio'
+theme = 'hugo-hero'
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = '0.92.0'
+
+[params]
+  google_analytics_id = ''
+
+  [params.logo]
+    alt = 'Santiago del Palacio'
+
+  [params.homepage_meta_tags]
+    meta_description = 'Santiago del Palacio, astrophysicist and data science and machine learning practitioner.'
+    meta_og_title = 'Santiago del Palacio | Scientist, Data Science, Machine Learning'
+    meta_og_type = 'website'
+    meta_og_url = 'https://santimda.github.io/'
+    meta_og_image = ''
+    meta_og_description = 'Professional website of Santiago del Palacio.'
+    meta_twitter_card = 'summary'
+    meta_twitter_site = ''
+    meta_twitter_creator = ''
+
+[[menu.main]]
+  name = 'Home'
+  url = '/'
+  weight = 1
+
+[[menu.main]]
+  name = 'Data Science'
+  url = '/data-science/'
+  weight = 2
+
+[[menu.main]]
+  name = 'Astronomy'
+  url = '/astronomy/'
+  weight = 3
+
+[[menu.main]]
+  name = 'About me'
+  url = '/about/'
+  weight = 4
+
+[[menu.main]]
+  name = 'Contact'
+  url = '/contact/'
+  weight = 5
+
+[permalinks]
+  pages = '/:filename/'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

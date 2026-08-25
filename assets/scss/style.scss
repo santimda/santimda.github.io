@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400|Open+Sans:400,700');
+@import 'bootstrap-variables';
+@import 'bootstrap/bootstrap';
+@import 'libraries/hamburgers/hamburgers';
+@import 'components/reset';
+@import 'components/page';
+@import 'components/header';
+@import 'components/footer';
+@import 'components/sub-footer';
+@import 'components/logo';
+@import 'components/main-menu';
+@import 'components/main-menu-mobile';
+@import 'components/social';
+@import 'components/hamburger';
+@import 'components/buttons';
+@import 'components/title';
+@import 'components/content';
+@import 'components/intro';
+@import 'components/strip';
+@import 'components/whitebox';
+@import 'components/feature';
+@import 'components/bg';
+@import 'pages/services/page-services-list';
+@import 'pages/services/page-services-single';
+@import 'pages/services/service-summary';
+@import 'pages/work/work-summary';
+@import 'pages/work/page-work-single';
+
+// Project palette: midnight cobalt background with restrained royal-blue accents.
+body {
+  background: #07152f;
+  color: #d9e3f5;
+}
+
+.header {
+  background: #030b1c !important;
+}
+
+.logo a, .logo-mobile a {
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.main-menu > ul > li > a {
+  color: #ffffff !important;
+  font-weight: 700;
+}
+
+.main-menu > ul > li > a:hover,
+.main-menu > ul > li.active > a {
+  background: #102b63;
+  color: #ffffff !important;
+}
+
+.hero-image {
+  background-color: #07152f;
+}
+
+a { color: #6f9cff; }
+a:hover { color: #b5caff; }
+
+.header, .footer, .sub-footer { background: #07152f; }
+.main-menu a { color: #d9e3f5; }
+.main-menu a:hover, .main-menu .active a { color: #7ea5ff; }
+.strip.bg-primary, .bg-primary { background-color: #102b63 !important; }
+.content, .content p, .content li { color: #d9e3f5; }
+.button-primary, .button { background: #2858c7; border-color: #2858c7; }
+.button-primary:hover, .button:hover { background: #4775dd; border-color: #4775dd; }
+
+.profile-home { padding: 110px 0 70px; }
+.profile-intro {
+  display: grid;
+  grid-template-columns: minmax(180px, 280px) minmax(0, 680px);
+  gap: 60px;
+  align-items: center;
+  min-height: 520px;
+}
+.profile-photo-wrap { text-align: center; }
+.profile-photo {
+  display: block;
+  width: 280px;
+  height: auto;
+  border-radius: 8px;
+  border: 4px solid #2858c7;
+  margin: 0 auto;
+}
+
+.about-photo {
+  display: block;
+  width: 72%;
+  max-width: 560px;
+  height: auto;
+  margin: 28px 0 36px;
+}
+.profile-kicker, .profile-label {
+  color: #86aaff;
+  font-size: .85rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+.profile-copy h1 {
+  color: #ffffff;
+  font-size: clamp(2.4rem, 5vw, 4rem);
+  line-height: 1.05;
+  margin: 12px 0 8px;
+}
+.profile-role { color: #ffffff; font-size: 1.35rem; font-weight: 700; }
+.profile-summary { max-width: 680px; font-size: 1.08rem; }
+.profile-links { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 28px; }
+.profile-sections {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  padding-top: 35px;
+}
+.profile-card { background: #0b2045; border: 1px solid #1e4387; padding: 34px; }
+.profile-card h2 { color: #ffffff; font-size: 1.65rem; }
+.profile-card a { font-weight: 700; }
+.profile-facts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  border-top: 1px solid #1e4387;
+  margin-top: 55px;
+  padding-top: 28px;
+}
+.profile-facts div { display: flex; flex-direction: column; gap: 5px; }
+.profile-facts strong { color: #ffffff; font-size: 1.2rem; }
+.profile-facts span { color: #aebedc; font-size: .9rem; }
+
+.content h1, .content h2, .content h3,
+.title-1, .title-1.black, .title-2, .title-3 {
+  color: #d9e3f5;
+}
+
+.content h3 { color: #c5d0e4; font-weight: 700; }
+
+.content img:not(.about-photo) {
+  display: block;
+  width: 720px;
+  max-width: 100%;
+  height: auto;
+}
+
+.container .col-12 > p > img:not(.about-photo) {
+  display: block;
+  width: 720px;
+  max-width: 100%;
+  height: auto;
+}
+
+.about-photo {
+  display: block;
+  width: 72%;
+  max-width: 560px;
+  height: auto;
+  margin: 28px 0 36px;
+}
+@media (max-width: 767px) {
+  .profile-home { padding-top: 90px; }
+  .profile-intro { display: flex; flex-direction: column; gap: 28px; min-height: 0; text-align: center; }
+  .profile-copy h1 { font-size: 3rem; }
+  .profile-links { justify-content: center; }
+  .profile-sections, .profile-facts { grid-template-columns: 1fr; }
+  .profile-card { padding: 26px; }
+  .profile-facts { gap: 16px; }
+}
