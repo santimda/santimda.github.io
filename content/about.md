@@ -6,6 +6,8 @@ I grew up in the small city of Mar de Ajó, Argentina. In 2008 I moved to La Pla
 
 Between 2019 and 2022 I worked at the Argentine Institute of Radioastronomy as a CONICET postdoctoral fellow. Between 2022 and 2026 I worked at Chalmers University of Technology in Gothenburg, Sweden, as a postdoctoral fellow in the Astronomy and Plasma Physics division.
 
+My career has progressed from astronomy education and a PhD on massive-star systems, through postdoctoral research at IAR and Chalmers, toward data science and machine learning. The transition builds on the same practice of modelling complex systems, analysing uncertain measurements, and making reproducible computational inferences.
+
 <img class="about-photo" src="/images/Snowman.jpeg" alt="Santiago del Palacio building a snowman">
 
 ## Teaching
