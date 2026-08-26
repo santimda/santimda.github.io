@@ -2,13 +2,14 @@
 title: 'About'
 ---
 
-I grew up in the small city of Mar de Ajó, Argentina. In 2008 I moved to La Plata to study Astronomy and graduated in 2014. Between 2014 and 2018 I completed a PhD in Astronomy at the National University of La Plata, under the supervision of Valentí Bosch-Ramon and Gustavo E. Romero.
+## My journey
 
-Between 2019 and 2022 I worked at the Argentine Institute of Radioastronomy as a CONICET postdoctoral fellow. Between 2022 and 2026 I worked at Chalmers University of Technology in Gothenburg, Sweden, as a postdoctoral fellow in the Astronomy and Plasma Physics division.
-
-My career has progressed from astronomy education and a PhD on massive-star systems, through postdoctoral research at IAR and Chalmers, toward data science and machine learning. The transition builds on the same practice of modelling complex systems, analysing uncertain measurements, and making reproducible computational inferences.
+I grew up in the small city of Mar de Ajó, Argentina. In 2008 I moved to La Plata to study Astronomy and graduated in 2014. Between 2014 and 2018 I completed a PhD in Astronomy at the National University of La Plata (UNLP), under the supervision of Valentí Bosch-Ramon (University of Barcelona) and Gustavo E. Romero (UNLP). Between 2019 and 2022, I worked at the Argentine Institute of Radioastronomy as a CONICET (Argentina's National Research Council) postdoctoral fellow. I then moved to Gothenburg, Sweden, where I worked from 2022 to 2026 as a postdoctoral fellow in the Astronomy and Plasma Physics division at Chalmers University of Technology.
 
 <img class="about-photo" src="/images/Snowman.jpeg" alt="Santiago del Palacio building a snowman">
+
+My career has evolved from a strong focus on theoretical and numerical modelling toward a broader approach combining modelling, data analysis, observations, and project planning and execution. My research interests have likewise expanded, from Galactic high-energy sources associated with massive stars, the subject of my PhD, to high-energy phenomena in active galactic nuclei, which became a major focus of my later work. I am now transitioning toward data science and machine learning, building on the analytical, computational, and programming skills developed throughout my research career. The transition builds naturally on my experience modelling complex systems, analysing uncertain measurements, and developing reproducible computational methods.
+
 
 ## Teaching
 
@@ -20,7 +21,9 @@ I regularly communicate astronomy and astrophysics to broader audiences through 
 
 ## Hobbies
 
-Outside work, I enjoy running and playing chess. I am also learning languages, currently Swedish.
+Outside work, I enjoy running, playing chess and reading. I also work in my language skills, currently focusing on becoming more fluent in Swedish.
+
+## CV
 
 - [Academic CV](/cv/CV___SdP.pdf)
 - [Industry CV](/cv/Santi_dP_CV_industry.pdf)
