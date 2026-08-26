@@ -58,8 +58,8 @@ body {
   background-color: #07152f;
 }
 
-a { color: #6f9cff; }
-a:hover { color: #b5caff; }
+a { color: #a9c7ff; }
+a:hover { color: #e4edff; }
 
 .header, .footer, .sub-footer { background: #07152f; }
 .main-menu a { color: #d9e3f5; }
@@ -166,7 +166,7 @@ a:hover { color: #b5caff; }
 // Astronomy research portfolio
 .astronomy-page { max-width: 1100px; margin: 0 auto; padding: 70px 20px 90px; }
 .astronomy-page > section { max-width: 980px; }
-.astronomy-page p, .astronomy-page li { color: #b9c9e5; line-height: 1.7; }
+.astronomy-page p, .astronomy-page li { color: #d8e5f7; line-height: 1.7; }
 .astronomy-page h1, .astronomy-page h2, .astronomy-page h3 { color: #ffffff; }
 .astronomy-page h1 { font-size: clamp(2.5rem, 6vw, 4.5rem); line-height: 1.05; margin: 8px 0 20px; }
 .astronomy-page h2 { font-size: clamp(1.8rem, 3vw, 2.8rem); margin: 8px 0 16px; }
@@ -178,7 +178,7 @@ a:hover { color: #b5caff; }
 .astronomy-metrics, .impact-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: #2858c7; margin: 10px 0 80px; }
 .astronomy-metrics div, .impact-grid div { background: #0b2045; padding: 22px 20px; }
 .astronomy-metrics strong, .impact-grid strong { display: block; color: #ffffff; font-size: 1.8rem; }
-.astronomy-metrics span, .impact-grid span { display: block; color: #aebedc; font-size: .86rem; line-height: 1.4; }
+.astronomy-metrics span, .impact-grid span { display: block; color: #c5d5ed; font-size: .86rem; line-height: 1.4; }
 .astronomy-section { border-top: 1px solid #1e4387; padding: 72px 0; }
 .research-approach, .research-themes, .project-story, .secondary-grid, .facility-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
 .research-approach { grid-template-columns: repeat(2, 1fr); }
@@ -187,6 +187,12 @@ a:hover { color: #b5caff; }
 .theme-card a { margin-top: auto; padding-top: 18px; }
 .agn-subsections { display: grid; grid-template-columns: repeat(2, 1fr); gap: 22px; }
 .agn-subsections article { background: #0b2045; border: 1px solid #1e4387; padding: 25px; }
+.astronomy-subsection { margin-top: 34px; }
+.astronomy-subsection > h3 { color: #ffffff; font-size: 1.6rem; font-weight: 700; margin: 0 0 18px; }
+.astronomy-subsection .project-story { margin-top: 0; }
+.bowshock-subsection { margin-top: 42px; }
+.bowshock-subsection > h3 { margin-bottom: 22px; }
+.bowshock-section h4 { color: #ffffff; font-size: 1.25rem; margin: 8px 0 10px; }
 .research-approach span { color: #6f9cff; font-weight: 700; }
 .theme-card:first-child { border-color: #4775dd; }
 .card-meta { color: #ffffff !important; font-weight: 700; }
@@ -197,18 +203,18 @@ a:hover { color: #b5caff; }
 .bowshock-section { display: grid; grid-template-columns: 1fr 1fr; gap: 45px; align-items: center; }
 .bowshock-section figure { margin: 0; }
 .bowshock-section img { width: 100%; max-height: 360px; object-fit: contain; background: #ffffff; }
-.bowshock-section figcaption { color: #8fa3c7; font-size: .85rem; margin-top: 8px; }
+.bowshock-section figcaption { color: #c5d5ed; font-size: .9rem; line-height: 1.5; margin-top: 12px; }
 .astronomy-figure { margin: 28px 0 0; }
 .astronomy-figure img { width: 80%; max-width: 540px; height: auto; }
 .puma-figure img { max-width: 320px; }
-.astronomy-figure figcaption { max-width: 720px; color: #aebedc; font-size: .9rem; line-height: 1.5; margin-top: 12px; }
+.astronomy-figure figcaption { max-width: 720px; color: #c5d5ed; font-size: .9rem; line-height: 1.5; margin-top: 12px; }
 .result-callout { display: grid; grid-template-columns: auto 1fr; gap: 5px 22px; align-items: baseline; border-left: 3px solid #4775dd; margin: 28px 0; padding: 12px 20px; }
 .result-callout strong { color: #ffffff; font-size: 1.5rem; }
 .result-callout span { color: #aebedc; }
 .facility-list { grid-template-columns: repeat(2, 1fr); }
 .facility-list div { border-left: 3px solid #2858c7; padding: 10px 20px; }
 .facility-list strong { display: block; color: #ffffff; }
-.facility-list span { color: #b9c9e5; }
+.facility-list span { color: #d8e5f7; }
 .secondary-grid { grid-template-columns: repeat(3, 1fr); }
 .secondary-grid strong { color: #ffffff; }
 @media (max-width: 767px) {
