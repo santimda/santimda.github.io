@@ -16,7 +16,7 @@ theme = 'hugo-hero'
 
   [params.homepage_meta_tags]
     meta_description = 'Santiago del Palacio, astrophysicist and data science and machine learning practitioner.'
-    meta_og_title = 'Santiago del Palacio | Scientist, Data Science, Machine Learning'
+    meta_og_title = 'Santiago del Palacio | Research, Data Science, Machine Learning'
     meta_og_type = 'website'
     meta_og_url = 'https://santimda.github.io/'
     meta_og_image = ''

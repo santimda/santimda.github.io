@@ -304,7 +304,7 @@ When modifying this project:
 
 ## Current Status
 
-The site is implemented in Hugo using the Hugo Hero theme, with project-specific templates and SCSS overrides. The homepage presents a concise scientist/data-science narrative; Astronomy is a research portfolio organised around modelling, observations, research themes, and project descriptions; Data Science contains four concrete portfolio projects; and About Me contains the concise career progression.
+The site is implemented in Hugo using the Hugo Hero theme, with project-specific templates and SCSS overrides. The homepage content and structure are maintained directly in `layouts/index.html`; `content/_index.md` only provides the Home page title. The obsolete theme headless homepage content under `content/homepage/` has been removed. Astronomy is a research portfolio organised around modelling, observations, research themes, and project descriptions; Data Science contains four concrete portfolio projects; and About Me contains the concise career progression.
 
 Astronomy uses ADS as the authoritative complete publication list. The page does not reproduce a publication list or a separate career timeline. Scientific figures remain in `static/images`; captions explain the point of each figure. The site retains the established dark cobalt visual language, restrained card layouts, readable content widths, and responsive mobile stacking.
 
