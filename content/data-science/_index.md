@@ -54,4 +54,13 @@ Compare requested skills, posting characteristics, and reported salaries across 
 
 ![Skills and salary associations in the European data science job market](/images/06_skills_salary_europe.png)
 
+
+## [Diamond Cut Classification](https://github.com/santimda/diamond-cut-classification)
+
+A supervised machine-learning project investigating whether diamond cut quality can be predicted from physical, quality, and pricing attributes. I curated the dataset, engineered a `price_per_carat` feature, and compared gradient-boosting classifiers using cross-validation and hyperparameter tuning.
+
+The analysis achieved approximately 78% classification accuracy and examined model errors and permutation feature importance. An important finding was the strong dependence between the diamond dimensions (x, y, z, and depth), highlighting the need to interpret feature importance in the context of correlated variables. The project is hosted in [GitHub](https://github.com/santimda/diamond-cut-classification).
+
+![Diamond dimensions versus price per carat by cut](/images/diamonds_dimension_vs_price_per_carat.png)
+
 </div>
