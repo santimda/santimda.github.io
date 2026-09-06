@@ -63,4 +63,19 @@ The analysis achieved approximately 78% classification accuracy and examined mod
 
 ![Diamond dimensions versus price per carat by cut](/images/diamonds_dimension_vs_price_per_carat.png)
 
+
+## [Breast Cancer Classification](https://github.com/santimda/breast-cancer-classification)
+
+**Supervised classification · Model comparison · Diagnostic metrics**
+
+A supervised machine-learning study using the Wisconsin Diagnostic Breast Cancer dataset. I compared five classification algorithms and explored feature representation, hyperparameter tuning, ensemble methods, and classification-threshold selection.
+
+A particular focus was the trade-off between sensitivity and specificity. Model-specific thresholds were selected using training out-of-fold predictions, allowing the final models to be evaluated on an untouched test set. The optimized Voting classifier achieved 97.4% accuracy, 97.6% sensitivity, 97.2% specificity, and 99.9% ROC-AUC on this test split.
+
+**Main result:** Lowering the Voting threshold increased sensitivity from 90.5% to 97.6%, while reducing specificity from 100% to 97.2%. The confusion matrices below show this trade-off directly.
+
+![Confusion matrices comparing the default and optimized Voting classifier thresholds](/images/confusion_matrix_voting_comparison.png)
+
+**Tech:** Python, pandas, NumPy, scikit-learn, Matplotlib, Seaborn, Jupyter. [View project on GitHub →](https://github.com/santimda/breast-cancer-classification)
+
 </div>
