@@ -219,6 +219,9 @@ a:hover { color: #e4edff; }
 .bowshock-section { display: grid; grid-template-columns: 1fr 1fr; gap: 45px; align-items: center; }
 .bowshock-section figure { margin: 0; }
 .bowshock-section img { width: 100%; max-height: 360px; object-fit: contain; background: #ffffff; }
+.apep-observation { margin: 30px 0; }
+.apep-observation .astronomy-figure { margin: 0; }
+.apep-observation .astronomy-figure img { max-width: 560px; max-height: 320px; }
 .bowshock-section figcaption { color: #c5d5ed; font-size: .9rem; line-height: 1.5; margin-top: 12px; }
 .astronomy-figure { margin: 28px 0 0; }
 .astronomy-figure img { width: 80%; max-width: 540px; height: auto; }
