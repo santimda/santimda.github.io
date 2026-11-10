@@ -80,4 +80,16 @@ A particular focus was the trade-off between sensitivity and specificity. Model-
 
 **Tech:** Python, pandas, NumPy, scikit-learn, Matplotlib, Seaborn, Jupyter. [View project on GitHub →](https://github.com/santimda/breast-cancer-classification)
 
+## [Reinforcement Learning for CarRacing](https://github.com/santimda/CarRacing_RL)
+
+A reinforcement-learning project using pixel observations from Gymnasium's `CarRacing-v3` environment. I compared PPO, a standard pixel-based SAC baseline, and a DrQ-SAC variant using image augmentation and task-specific reward shaping.
+
+**Approach:** Train and evaluate continuous-control agents using RGB observations, reproducible seeds, checkpoint selection, and deterministic holdout evaluation on 50 unseen environments.
+
+**Result:** The stabilized PPO policy achieved the strongest holdout return (`855.7 ± 81.3`), while DrQ-SAC learned substantially faster than standard SAC. The project also documents an important limitation: strong returns did not always correspond to reliable lap completion.
+
+**Tools:** Python, PyTorch, Gymnasium, Stable-Baselines3, reinforcement learning, convolutional visual policies, image augmentation, TensorBoard. [View project on GitHub →](https://github.com/santimda/CarRacing_RL)
+
+![PPO policy driving in Gymnasium CarRacing](/images/ppo-stabilized-demo.gif)
+
 </div>
