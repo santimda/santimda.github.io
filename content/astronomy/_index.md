@@ -33,10 +33,20 @@ description: 'Research in high-energy and non-thermal astrophysics through theor
   <div class="astronomy-subsection">
     <p class="astronomy-eyebrow">Radio-quiet AGN</p>
     <h3>Millimetre emission from AGN coronae</h3>
-    <p>Compact radio and millimetre emission can probe the hot corona around a supermassive black hole. I developed an open-source numerical SED modelling tool for radio-to-far-infrared observations, with self-consistent compact-corona emission and a framework for inferring physical parameters. The results indicate characteristic coronal sizes of about 200 gravitational radii and magnetic-field strengths of tens of gauss. <a href="https://ui.adsabs.harvard.edu/abs/2025A%26A...701A..41D/abstract">Paper link.</a></p>
+    <p>Compact radio and millimetre emission can probe the hot corona around a supermassive black hole. I developed <a href="https://github.com/santimda/sed_fitter_BHcorona">sed_fitter_BHcorona</a>, an open-source numerical SED modelling tool for radio-to-far-infrared observations, with self-consistent compact-corona emission and a framework for inferring physical parameters. The results indicate characteristic coronal sizes of about 200 gravitational radii and magnetic-field strengths of tens of gauss. <a href="https://ui.adsabs.harvard.edu/abs/2025A%26A...701A..41D/abstract">Paper link.</a></p>
     <figure class="astronomy-figure">
       <img src="/images/SED_IC4329A.png" alt="Radio-to-far-infrared spectral energy distribution model for IC 4329A">
       <figcaption>Broadband SED modelling of IC 4329A combines radio, millimetre, and infrared measurements to constrain emission from its compact corona. Adapted from del Palacio et al. 2025.</figcaption>
+    </figure>
+  </div>
+
+  <div class="astronomy-subsection">
+    <p class="astronomy-eyebrow">Radio-loud AGN</p>
+    <h3>Non-thermal emission from relativistic jets</h3>
+    <p>Radio-loud AGN have powerful jets that are bright at radio frequencies. Important progress has been made in the the observation of these objects, but tools to extract physical insights from them were lagging. We therefore developed <a href="https://github.com/santimda/ExtendedJet">ExtendedJet</a>, a non-thermal, multi-zone emission model for relativistic jets. The model combines particle transport and radiative processes to predict spatially resolved synchrotron and inverse-Compton emission, enabling comparisons with radio observations of systems such as the jet in M87. The code was published in <a href="https://scixplorer.org/abs/2026arXiv261026434G/abstract?fromADS=true&amp;ads_compat=1">Gutierrez et al. 2026</a>.</p>
+    <figure class="astronomy-figure pdf-figure">
+      <img src="/images/Map_I_43GHz.png" alt="43 GHz intensity map of a relativistic jet">
+      <figcaption>Example of a synthetic intensity map at 43 GHz intensity map produced with the <a href="https://github.com/santimda/ExtendedJet">ExtendedJet</a> code.</figcaption>
     </figure>
   </div>
 
